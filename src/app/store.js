@@ -2,6 +2,10 @@ import { configureStore } from '@reduxjs/toolkit';
 import markupReducer from '../features/markup/markupSlice';
 import thunk from 'redux-thunk';
 
+/*
+  This is default state : markup provided as per the user stories of assignment.
+  Editor will load and show the equivalent HTML in preview box.
+*/
 const preloadedState = {
   markup:{
     text: `Marked - Markdown Parser
@@ -45,6 +49,10 @@ Ready to start writing?  Either start changing stuff on the left or
   }
 };
 
+/*
+  Store for this application will have only single reducer and default state as the preloadedState.
+  Using a redux toolkit to configure store with single reducer and thunk middleware.
+*/
 export const store = configureStore({
   reducer: {
     markup: markupReducer

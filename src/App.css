@@ -1,15 +1,4 @@
-.color-picker{
-    height: 30px;
-    width: 30px;
-    border-radius: 5px;    
-}
-
-.btn {
-    margin: 5px;
-    outline: none;
-    border: 1px solid lightgray;
-}
-
+/* Custom styles */
 body{
     overflow-x: hidden;
     background-color: #CFF09E;
@@ -65,6 +54,17 @@ img {
     background-color: #E1F5C4;
 }
 
+.color-picker{
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;    
+}
+
+.btn {
+    margin: 5px;
+    outline: none;
+    border: 1px solid lightgray;
+}
 
 /* Scorllbar CSS */
 ::-webkit-scrollbar {

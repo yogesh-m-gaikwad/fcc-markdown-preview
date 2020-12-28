@@ -2,6 +2,7 @@ import { createSlice, createAction } from '@reduxjs/toolkit';
 
 const refresh = createAction('markup/refresh');
 
+// This is the markup reducer required for application.
 export const markupSlice = createSlice({
   name: 'markup',
   initialState: {
@@ -28,6 +29,5 @@ export const refreshAsync = markup => dispatch => {
 // the state. Selectors can also be defined inline where they're used instead of
 // in the slice file. For example: `useSelector((state) => state.counter.value)`
 export const selectMarkup = state => state.markup.text;
-
 
 export default markupSlice.reducer;

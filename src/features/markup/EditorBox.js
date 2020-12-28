@@ -1,7 +1,10 @@
 import React from 'react';
 import { ButtonGroup, Button } from 'reactstrap';
 import store from '../../app/store';
-
+/* 
+  Colors and styles used by inline css are defined here. 
+  Note - This is not part of assignment user stories.
+ */
 const RED ='RED';
 const BLUE ='BLUE';
 const BLACK ='BLACK';
