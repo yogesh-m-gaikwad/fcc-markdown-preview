@@ -1,0 +1,85 @@
+.color-picker{
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;    
+}
+
+.btn {
+    margin: 5px;
+    outline: none;
+    border: 1px solid lightgray;
+}
+
+body{
+    overflow-x: hidden;
+    background-color: #CFF09E;
+    color: #0B486B;
+}
+
+#app {
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100vw;
+}
+
+img {
+    width: 80%;
+}
+
+#editor-wrapper {
+    margin: 30px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(121,189,154, .5);
+    border-radius: 15px;
+    box-shadow: 5px 15px 60px 20px rgba(121,189,154, .15);
+    background-color: #E1F5C4;
+}
+
+#editor-wrapper textarea {
+    width: 100%;
+    padding: 20px;
+    font-family: Consolas;
+    font-size: 14px;
+    box-sizing: border-box;    
+    min-height: 402px;
+    border-color: rgba(5, 5, 5, .1);
+    border-radius: 15px;
+    background-color: #A8DBA8;
+}
+
+#editor-wrapper textarea:focus, #editor textarea:active {
+    outline: none;
+}
+
+#preview {
+    margin: 30px;
+    padding: 10px 25px;
+    border: 1px solid rgba(121,189,154, .5);
+    border-radius: 15px;
+    box-shadow: 5px 15px 60px 20px rgba(121,189,154, .15);
+    background-color: #E1F5C4;
+}
+
+
+/* Scorllbar CSS */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(59,34,34, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #0B486B;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #3B8686;
+}
