@@ -24,3 +24,6 @@ yarn-debug.log*
 yarn-error.log*
 .eslintcache
 hs_err_pid*.log
+
+.vscode/
+.idea/
